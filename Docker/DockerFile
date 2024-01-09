@@ -1,0 +1,5 @@
+FROM nginx:latest
+
+COPY site.html /home/ilya/nginx/html
+
+EXPOSE 80
